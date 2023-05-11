@@ -1,0 +1,217 @@
+<mxfile host="app.diagrams.net" modified="2023-05-11T16:46:53.801Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="sngsoN-k9xC-5w6bnxW3" version="21.2.4" type="device">
+  <diagram name="Strona-1" id="X-pkZDvS33_qxxIyR7JH">
+    <mxGraphModel dx="1674" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="712.5" y="100" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-1" target="SG1RKpLGwtNjgABJBMGm-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="415" y="1110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-4" value="Wybiera samochód" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="670" y="170" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-4" target="SG1RKpLGwtNjgABJBMGm-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="419" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-9" value="Sprawdza dostępność" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="365" y="170" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-9" target="SG1RKpLGwtNjgABJBMGm-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-15" value="Rezerwuje samochód" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="670" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-15" target="SG1RKpLGwtNjgABJBMGm-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-17" value="Umawia jazdę testową" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="670" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-17" target="wBSv__NddgJv0mda4woa-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-22" value="Pokazuje cenę samochodu klientowi" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="365" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-24" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-22" target="SG1RKpLGwtNjgABJBMGm-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="390" as="targetPoint" />
+            <mxPoint x="680" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-29" value="Klient" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-30" value="System" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="405" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-31" value="Handlowiec" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-45" value="Podejmuje decyzje" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="690" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-45" target="SG1RKpLGwtNjgABJBMGm-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-47" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="710" y="550" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-48" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-47" target="SG1RKpLGwtNjgABJBMGm-51" edge="1">
+          <mxGeometry x="-0.7303" relative="1" as="geometry">
+            <mxPoint x="875" y="540" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-49" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-47" target="SG1RKpLGwtNjgABJBMGm-58" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="735" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="735" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-51" value="Podejmuje decyzje o zmianie ceny" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="100" y="550" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-52" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-51" target="SG1RKpLGwtNjgABJBMGm-53" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-53" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="120" y="450" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-54" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-53" target="SG1RKpLGwtNjgABJBMGm-4" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="325" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="150" />
+              <mxPoint x="699" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-55" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-53" target="SG1RKpLGwtNjgABJBMGm-56" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="335" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-56" value="Aktualizuje cenę" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="365" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-57" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-56" target="SG1RKpLGwtNjgABJBMGm-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-58" value="Sprawdza prawo jazdy" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="100" y="620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-59" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-58" target="SG1RKpLGwtNjgABJBMGm-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-60" value="Podejmuje decyzje czy chce ubezpieczenie" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="670" y="650" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-61" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-60" target="SG1RKpLGwtNjgABJBMGm-62" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-62" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="690" y="730" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-63" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.558;entryY=0.482;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-62" target="SG1RKpLGwtNjgABJBMGm-70" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="870" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="442" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-64" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-62" target="SG1RKpLGwtNjgABJBMGm-67" edge="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="730" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-65" value="Pobiera opłatę" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="370" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-67" value="Wybiera ubepieczenie" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="640" y="860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-68" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.75;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-67" target="SG1RKpLGwtNjgABJBMGm-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-70" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="330" y="795" width="200" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-71" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-70" target="SG1RKpLGwtNjgABJBMGm-65" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-72" value="Przekazuje kluczyki oraz fakturę" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="130" y="980" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-73" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-72" target="SG1RKpLGwtNjgABJBMGm-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-76" value="Aktualizuje status samochódu&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="1" vertex="1">
+          <mxGeometry x="370" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-77" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-76" target="SG1RKpLGwtNjgABJBMGm-72" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SG1RKpLGwtNjgABJBMGm-78" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SG1RKpLGwtNjgABJBMGm-65" target="SG1RKpLGwtNjgABJBMGm-76" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="950" as="targetPoint" />
+            <mxPoint x="200" y="890" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wBSv__NddgJv0mda4woa-1" value="Obsługuje klienta" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wBSv__NddgJv0mda4woa-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wBSv__NddgJv0mda4woa-1" target="SG1RKpLGwtNjgABJBMGm-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="420" as="targetPoint" />
+            <mxPoint x="435" y="460" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
